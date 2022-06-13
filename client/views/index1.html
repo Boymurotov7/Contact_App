@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/styles.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<form id="form">
+			<input autocomplete="off" id="usernameInput" type="text" placeholder="username">
+			<input type="tel" id="numberInput" pattern="[+]{1}9989[0-9]{1}[0-9]{7}" placeholder="phoneNamber">
+			<select id="categoryInput">
+				<!---<option value="Oila a`zosi">Oila a`zosi</option>
+				<option value="Do`st">Do`st</option>
+				<option value="Hamkasb">Hamkasb</option>
+				<option value="Tanishim">Tanishim</option>--->
+			</select>
+			<button id="btn">search</button>
+			<button id="btn"><a href="/categories">create category</a></button>
+		</form>
+		<form id="form1"><button id="btn">create contact</button></form>
+		<table>
+			<thead>
+				<tr>
+					<th>N</th>
+					<th>Name</th>
+					<th>Phonenamber</th>
+					<th>category</th>
+					<th>delete</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+				
+			</tbody>
+		</table>
+	</div>
+
+<script src="./js/util.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
